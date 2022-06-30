@@ -1,0 +1,559 @@
+body{
+	background: #000;
+	font-family: 'PT Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+
+}
+img{
+	padding: 0;
+	margin: 0;
+}
+h1,h2,h3,h4{
+	font-family: 'PT Sans', sans-serif;
+	padding: 0 auto;
+	margin: 0 auto;
+}
+button{
+	border: none;
+  	font: inherit;
+ 	color: inherit;
+ 	background-color: transparent;
+	padding: 0;
+	margin: 0;
+	}
+p{
+	letter-spacing: 0.02em;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	font-size: 8px;
+	padding: 0;
+	margin: 0;
+}
+h1,h2,h3,h4{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+}
+.container{
+	padding: 0 auto;
+	margin: 0 auto;
+	max-width: 775px;
+}
+.container_above_nav{
+	height: 21px;
+	margin: 0 auto;
+}
+.nav_icon{
+	
+	margin: 0;
+	padding: 0;
+	width: 10px;
+}
+.above_nav{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 11px;
+}
+.above_nav_text{
+	color: #969696;
+	margin-left: 11px;
+}
+.first_nav{
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+.second_nav{
+	padding: 0;
+	display: flex;
+}
+.second_text_nav{
+	color: #969696;
+	margin-left: 5px;
+}
+.div_nav_bg_bar {
+	height: 56px;
+	background: #0F0F0F;
+}
+.nav_bar{
+	height: 56px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.logo_image {
+	padding-top: 18px;
+	width: 70px;
+}
+.nav_text_menu {
+	display: flex;
+	margin-left: 5px;
+}
+.menu_text {
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	line-height: 18px;
+	font-size: 9px;
+}
+.nav_button{
+	width: 15px;
+}
+.nav_button_search{
+	width: 13px;
+}
+.icons_nav{
+margin-left: 5px;
+}
+.nav_text_menu button{
+	display: flex;
+  	align-items: center;
+ 	justify-content: center;
+	height: 56px;
+	margin-left: 35px;
+}
+
+.nav_text_menu button p{
+	
+}
+.nav_text_menu button:hover{
+	background: #1F1F1F;
+	transition: all 500ms ease;
+}
+.logo{
+	padding-top: 3px;
+}
+/*
+.main_bg{
+	position: relative;
+	min-height: 567px;
+	background-image: url(/photo/img1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.triangle_text {
+
+}
+.rectangle{
+
+	position: absolute;
+	width: 225px;
+	height: 225px;
+
+}
+.position_rectangle{
+	left: 12%;
+	top: 19.6%;
+	position: absolute;
+
+
+}
+.logo_rectangle{
+	position: relative;
+	width: 110px;
+	left: 15%;
+	bottom: 20%;
+}
+.line_logo{
+	width: 125px;
+	right: 10.7%;
+	bottom: 60%;
+	position: relative;
+}
+.text_in_rectangle{
+	text-align: center;
+	width: 400px;
+	right: 13.8%;
+	bottom: 59%;
+	color: #fff;
+	float: left;
+	position: relative;
+}
+*/
+.main_bg{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 567px;
+	background: url(/photo/img1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.ramka{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 45px;
+	width: 220px;
+	height: 220px;
+	background: url(/photo/rectangle.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.logo_ramka{
+	display:flex;
+	padding-top: 12px;
+	padding-bottom: 7px;
+	width: 128px;
+}
+.line{
+	display: flex;
+	height: 0.05em;
+	width: 8em;
+}
+.ramka_position{
+}
+.text_in_ramka{
+	font-size: 15px;
+	line-height: 28px;
+	text-transform: uppercase;
+}
+.content_ramka{
+
+}
+.under_rectangle{
+	font-size: 11px;
+	text-transform: uppercase;
+	text-align: center;
+	width: 550px;
+	line-height: 155%;
+	margin-top: 10px;
+}
+.flex_two_element {
+	min-height: 510px;
+	background: rgb(122, 122, 122);
+	display: flex;
+}
+.clock_storage {
+	margin: 0;
+	padding-top: 63px;
+	width: 728px;
+	background: #000;
+}
+.clock_galery {
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-evenly;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+
+.zagolovok_clock{
+	padding: 0;
+	margin: 0;
+	font-size: 25px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+}
+.test_text{
+
+}
+.clock_photo{
+	width: 	150px;
+	margin-top: 15px;
+	
+}
+
+.background_clock{
+	background: #191B1C;
+	padding: 25px 15px 37px 15px;
+	margin-bottom: 	16px;
+
+}
+.clock_galery h3{
+	padding-bottom: 6px;
+	font-size: 12.5px;
+	font-weight: 400;
+	font-family: 'Playfair Display', serif;
+}
+.clock_galery p{
+	font-size: 11px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+}
+.man_storage {
+	padding: 0;
+	width: 615px;
+	background: url(/photo/img2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;	
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+}
+.man_line{
+	height: 1px;
+	padding-top: 2px;
+	padding-bottom: 21px;
+}
+.line_position{
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	display: flex;
+	padding-bottom: 65px;
+}
+.button_galery{
+	width: 100px;
+}
+.line_position h2{
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 25px;
+	letter-spacing: 0.001em;
+	padding-bottom: 12px;
+	text-transform: uppercase;
+}
+.under_season{
+	background: rgb(255, 255, 255);
+	width: 50px;
+	margin-top: 30px;
+	height: 1px;
+}
+.before_clock{
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.suit{
+	width: 617px;
+	height: 420px;
+	background: url(/photo/img3.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	
+}
+.flex_two_two_element{
+	display: flex;
+}
+.colection_text{
+	width: 726px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	text-align: center;
+	align-items: center;
+}
+.colection_text h2{
+	margin-bottom: 25px;
+	width: 350px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-family: 'Playfair Display', serif;
+}
+.colection_text h3{
+	margin-bottom: 15px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+}
+.view_collection{
+	padding-top: 25px;
+	width: 200px;
+}
+.line_str_two{
+	margin-bottom: 15px;
+	width: 100px;
+	height: 1px;
+}
+.text_position_col{
+	width: 350px;
+}
+.new_collection{
+	height: 815px;
+	padding-right: 39px;
+	margin-top: 88px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 760px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+		
+}
+.new_galery{
+	padding-top: 66px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: row;	
+	flex-wrap: wrap;
+	height: 625px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.new_collection_text h2{
+	padding-left: 43.5px;
+	font-size: 24.5px;
+	letter-spacing: 0.06em;
+	font-weight: 400;
+	font-family: 'Playfair Display', serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+.new_galery h3{
+	font-size: 12px;
+	font-weight: 400;
+	font-family: 'Playfair Display', serif;
+}
+.new_galery p{
+	padding-top: 5px;
+	font-size: 10px;
+	font-weight: 700;
+	font-family: 'Playfair Display', serif;
+}
+.our_brands{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 1345px;
+	height: 248px;
+	background: #0F0F0F;
+}
+
+.text_our_brands h2{
+	padding-top: 25px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: 'Playfair Display', serif;
+	
+}
+.line_brands{
+	padding-bottom: 10px;
+}
+.line_brands_img{
+	height: 1px;
+	width: 85px;
+}
+.logo_our_brands{
+	padding-bottom: 30px;
+	letter-spacing: 0.9em;
+}
+.brands_img{
+	width: 180px;
+}
+.footer_bg{
+	background: url(/photo/footer.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.footer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 775px;
+	height: 279px;
+
+}
+.foot_flex {
+	padding-top: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.foot_flex h2{
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Playfair Display', serif;
+
+}
+.foot_flex h3{
+	
+	line-height: 1.5em;
+	letter-spacing: 0.035em;
+	padding-left: 5px;
+	padding-top: 29px;
+	font-size: 9px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+}
+.about_shop {
+	padding-top: 43px;
+	width: 258px;
+	height: 100%;
+}
+.categories {
+	padding-left: 45px;
+	padding-top: 17px;
+	width: 258px;
+	height: 100%;
+}
+.button_categories{
+	padding-top: 15px;
+}
+.categories button{
+	margin-top: 15px;
+	margin-right: 10px;
+	padding: 7px 14px 7px 14px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 10px;
+	color: #fff;
+	background: #0F0F0F;
+}
+.maling {
+	margin-top: 32px;
+	margin-left: 40px;
+	width: 258px;
+	height: 100%;
+}
+.form{
+	margin: 0;
+	width: 70px;
+	padding: 0.1em;
+
+}
+.knopka_email{
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	padding-top: 25px;
+}
+input[type=text]{
+	padding-left: 8px;
+	margin-left: 2px;
+	width: 140px;
+	height: 25px;
+	font-size: 10px;
+	color: rgb(255, 255, 255);
+	background: #b1b1b166;
+	border: 1px solid rgb(117, 117, 117);
+}
+.knopka_email h3{
+	padding-top: 0;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	background: #0F0F0F;
+	padding: 7px 12px 7px 12px;
+	font-size: 9px;
+}
+.prava{
+	height: 35px;
+	background: #0F0F0F;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 7px;
+	padding-top: 12px;
+}
